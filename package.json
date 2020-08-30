@@ -1,0 +1,66 @@
+{
+  "name": "wac-angular-extension-pack",
+	"displayName": "WAC Angular Extension Pack",
+	"description": "An extnsion pack for extensions used in Windows Admin Center Development",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.48.0"
+	},
+	"categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "Angular.ng-template",
+        "cmwendwa.resjson",
+        "ms-vscode.PowerShell",
+        "devtools.vscode-firefox-debug",
+        "msjsdiag.debugger-for-edge",
+        "msjsdiag.debugger-for-chrome",
+        "raagh.angular-karma-test-explorer",
+        "ybaumes.highlight-trailing-white-spaces",
+        "formulahendry.auto-rename-tag",
+        "aaron-bond.better-comments",
+        "CoenraadS.bracket-pair-colorizer",
+        "eamodio.gitlens",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "esbenp.prettier-vscode",
+        "christian-kohler.path-intellisense",
+        "IBM.output-colorizer",
+        "christian-kohler.npm-intellisense",
+        "eg2.vscode-npm-script",
+        "PKief.material-icon-theme"
+    ],
+	"activationEvents": [
+        "onCommand:wac-angular-extension-pack.helloWorld"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "wac-angular-extension-pack.helloWorld",
+				"title": "Hello World"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint src --ext ts",
+		"watch": "tsc -watch -p ./",
+		"pretest": "yarn run compile && yarn run lint",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.48.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^14.0.27",
+		"eslint": "^7.6.0",
+		"@typescript-eslint/eslint-plugin": "^3.8.0",
+		"@typescript-eslint/parser": "^3.8.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.0.1",
+		"typescript": "^3.8.3",
+		"vscode-test": "^1.4.0"
+	}
+}
