@@ -1,7 +1,7 @@
 {
-  "name": "ac-angular-extension-pack",
-	"displayName": "Admin Center Angular Extension Pack",
-	"description": "An extension pack for Microsoft's windows Admin Center shell and extensions development in Angular and Powershell",
+  "name": "wac-angular-extension-pack",
+	"displayName": "Windows Admin Center Angular Extension Pack",
+	"description": "An extension pack for Windows Admin Center shell and extensions development in Angular and Powershell",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.48.0"
