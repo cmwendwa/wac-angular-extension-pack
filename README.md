@@ -1,4 +1,4 @@
-# WAC(Windows Admin Center) Angular Extension Pack README
+# WAC(Windows Admin Center) Angular Extension Pack
 Windows Admin Center shell and extensions' developement extension pack for VS Code.
 
 This is a collection of VS Code extensions useful for development of WAC's SDK and extensions.
