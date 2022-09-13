@@ -13,7 +13,6 @@ Extensions in this pack include:
 - [Highlight Trailing White Spaces](https://marketplace.visualstudio.com/items?itemName=ybaumes.highlight-trailing-white-spaces) -  highlights trailing white spaces in red.
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - automatically renames paired HTML/XML tag, same as Visual Studio IDE does.
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) - helps you create more human-friendly comments in your code.
-- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) - allows matching brackets to be identified with colours. The user can define which tokens to match, and which colours to use.,
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - supercharges the Git capabilities built into VS Code. ,
 - [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin) - adds tslint to VS Code using the TypeScript TSLint language service plugin.,
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)- an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
