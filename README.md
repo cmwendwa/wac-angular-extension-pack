@@ -8,7 +8,7 @@ Extensions in this pack include:
 - [Angular Snippets(Version 13) - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) - adds snippets for Angular for TypeScript and HTML.
 - [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell) - provides rich PowerShell language support for VS Code. Write and debug PowerShell scripts in VS Code.
 - [Microsoft Edge Tools for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-edgedevtools.vscode-edge-devtools) -  to debug your JavaScript code in the Microsoft Edge browser.
-- [Angular/Karma Test Explorer](https://marketplace.visualstudio.com/items?itemName=raagh.angular-karma-test-explorer) - allows you to run or debug your Angular or Karma tests with the Test Explorer UI and the Debugger for Chrome extensions on VS Code.
+- [Karma Test Explorer (for Angular, Jasmine, and Mocha)](https://marketplace.visualstudio.com/items?itemName=lucono.karma-test-explorer) - allows you to run or debug your Angular or Karma tests with the Test Explorer UI and the Debugger for Chrome extensions on VS Code.
 - [RESJSON](https://marketplace.visualstudio.com/items?itemName=cmwendwa.resjson)- provides language support for RESJSON files(which have the file extension .resjson).
 - [Highlight Trailing White Spaces](https://marketplace.visualstudio.com/items?itemName=ybaumes.highlight-trailing-white-spaces) -  highlights trailing white spaces in red.
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - automatically renames paired HTML/XML tag, same as Visual Studio IDE does.
