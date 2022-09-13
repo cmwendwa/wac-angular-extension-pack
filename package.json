@@ -2,7 +2,7 @@
   "name": "wac-angular-extension-pack",
   "displayName": "Windows Admin Center Angular Extension Pack",
   "description": "An extension pack for Windows Admin Center shell and extensions development in Angular and Powershell",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "engines": {
     "vscode": "^1.48.0"
   },
