@@ -1,34 +1,34 @@
 {
   "name": "wac-angular-extension-pack",
-	"displayName": "Windows Admin Center Angular Extension Pack",
-	"description": "An extension pack for Windows Admin Center shell and extensions development in Angular and Powershell",
-	"version": "0.0.1",
-	"engines": {
-		"vscode": "^1.48.0"
-	},
-	"publisher": "cmwendwa",
-	"categories": [
-        "Extension Packs"
-    ],
-    "extensionPack": [
-      "Angular.ng-template",
-      "johnpapa.Angular2",
-      "ms-vscode.PowerShell",
-      "ms-edgedevtools.vscode-edge-devtools",
-      "raagh.angular-karma-test-explorer",
-      "cmwendwa.resjson",
-      "ybaumes.highlight-trailing-white-spaces",
-      "formulahendry.auto-rename-tag",
-      "aaron-bond.better-comments",
-      "eamodio.gitlens",
-      "ms-vscode.vscode-typescript-tslint-plugin",
-      "esbenp.prettier-vscode",
-      "christian-kohler.path-intellisense",
-      "IBM.output-colorizer",
-      "christian-kohler.npm-intellisense",
-      "eg2.vscode-npm-script",
-      "PKief.material-icon-theme",
-      "pranaygp.vscode-css-peek",
-      "ecmel.vscode-html-css"
-    ]
+  "displayName": "Windows Admin Center Angular Extension Pack",
+  "description": "An extension pack for Windows Admin Center shell and extensions development in Angular and Powershell",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.48.0"
+  },
+  "publisher": "cmwendwa",
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "Angular.ng-template",
+    "johnpapa.Angular2",
+    "ms-vscode.PowerShell",
+    "ms-edgedevtools.vscode-edge-devtools",
+    "raagh.angular-karma-test-explorer",
+    "cmwendwa.resjson",
+    "ybaumes.highlight-trailing-white-spaces",
+    "formulahendry.auto-rename-tag",
+    "aaron-bond.better-comments",
+    "eamodio.gitlens",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "esbenp.prettier-vscode",
+    "christian-kohler.path-intellisense",
+    "IBM.output-colorizer",
+    "christian-kohler.npm-intellisense",
+    "eg2.vscode-npm-script",
+    "PKief.material-icon-theme",
+    "pranaygp.vscode-css-peek",
+    "ecmel.vscode-html-css"
+  ]
 }
