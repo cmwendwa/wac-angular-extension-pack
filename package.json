@@ -12,7 +12,7 @@
     ],
     "extensionPack": [
       "Angular.ng-template",
-      "Mikael.Angular-BeastCode",
+      "johnpapa.Angular2",
       "ms-vscode.PowerShell",
       "msjsdiag.debugger-for-edge",
       "raagh.angular-karma-test-explorer",

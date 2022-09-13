@@ -5,7 +5,7 @@ This is a collection of VS Code extensions useful for development of WAC's SDK a
 
 Extensions in this pack include:
 - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) - provides a rich editing experience for Angular templates, both inline and external templates.
-- [Angular 10 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode) - provides TypeScript and Html snippets and code examples for Angular 2,4,5,6,7,8,9 & 10
+- [Angular Snippets(Version 13) - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) - adds snippets for Angular for TypeScript and HTML.
 - [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell) - provides rich PowerShell language support for Visual Studio Code.,
 - [Debugger for Microsoft Edge](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-edge) -  to debug your JavaScript code in the Microsoft Edge browser.
 - [Angular/Karma Test Explorer](https://marketplace.visualstudio.com/items?itemName=raagh.angular-karma-test-explorer) - allows you to run or debug your Angular or Karma tests with the Test Explorer UI and the Debugger for Chrome extensions on Visual Studio Code.
