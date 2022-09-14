@@ -11,10 +11,12 @@ const packageObj = require('../package.json');
 const extensionVersion = packageObj.version;
 const dependencyExtensions = packageObj.extensionPack;
 
-// the application insights key (also known as instrumentation key)
-const key = '<app-key>';
+const key = process?.env?.WACLPINSTRUMENTATIONKEY || '';
 
-// telemetry reporter
+if(!key){
+	throw new Error('Instrumentation key is needed!')
+}
+
 let reporter: TelemetryReporter;
 
 export async function activate(context: vscode.ExtensionContext) {
