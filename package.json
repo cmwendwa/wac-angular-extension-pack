@@ -31,7 +31,8 @@
     "PKief.material-icon-theme",
     "pranaygp.vscode-css-peek",
     "ecmel.vscode-html-css",
-    "streetsidesoftware.code-spell-checker"
+    "streetsidesoftware.code-spell-checker",
+    "mikestead.dotenv"
   ],
   "activationEvents": [
     "onLanguage:json",

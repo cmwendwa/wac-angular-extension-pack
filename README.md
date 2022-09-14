@@ -24,3 +24,4 @@ Extensions in this pack include:
 - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) - adds `Go To Definition` and `Go To Symbol` in Workspace support for css/scss/less (classes and IDs) found in strings within the source code.
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - A basic spell checker that works well with code and documents.
+- [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) - provides .env syntax highlighting.
