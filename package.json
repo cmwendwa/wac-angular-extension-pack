@@ -3,6 +3,7 @@
   "displayName": "Windows Admin Center Angular Extension Pack",
   "description": "An extension pack for Windows Admin Center shell and extensions development in Angular and Powershell",
   "version": "0.3.0",
+  "repository": "https://github.com/cmwendwa/wac-angular-extension-pack",
   "engines": {
     "vscode": "^1.48.0"
   },
@@ -30,5 +31,51 @@
     "PKief.material-icon-theme",
     "pranaygp.vscode-css-peek",
     "ecmel.vscode-html-css"
-  ]
+  ],
+  "activationEvents": [
+    "onLanguage:json",
+    "onLanguage:typescript",
+    "onLanguage:powershell"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "configurationDefaults": {},
+    "keybindings": [
+      {
+        "args":"// Provides work around https://github.com/ChristianKohler/NpmIntellisense/issues/12",
+        "key": ".",
+        "command": ""
+      }
+    ]
+  },
+  "license": "MIT",
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc --skipLibCheck -p ./",
+    "lint": "eslint src --ext ts",
+    "lint-fix": "eslint src --ext ts --fix",
+    "watch": "tsc --skipLibCheck -watch -p ./",
+    "pretest": "yarn run compile && yarn run lint",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/assert": "^1.5.6",
+    "@types/glob": "^7.1.1",
+    "@types/mocha": "^7.0.1",
+    "@types/node": "^12.11.7",
+    "@types/vscode": "^1.42.0",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "assert": "^2.0.0",
+    "eslint": "^6.8.0",
+    "glob": "^7.1.6",
+    "mocha": "^7.0.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.5",
+    "vscode-test": "^1.3.0",
+    "vscode": "^1.1.37"
+  },
+  "dependencies": {
+    "@vscode/extension-telemetry": "^0.6.2"
+  }
 }
