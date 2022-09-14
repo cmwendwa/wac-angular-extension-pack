@@ -39,14 +39,11 @@ export async function activate(context: vscode.ExtensionContext) {
 				await config.update(key, value, true);
 
 			} catch (error) {
-				vscode.window.showErrorMessage('An error ocurred while making settings updates');
 				reporter.sendTelemetryErrorEvent('ApplySettingError', { errorContents: JSON.stringify(error), extensionIds });
 			}
 		});
 
-		vscode.window.showInformationMessage('Settings updates were made successfully.');
 	} else {
-		vscode.window.showWarningMessage('Making settings updates has been postponed as there are pending extension installs');
 		reporter.sendTelemetryErrorEvent('ForgoingApplySetting', { extensionIds });
 	}
 
