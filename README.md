@@ -23,3 +23,4 @@ Extensions in this pack include:
 - [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) -HTML id and class attribute completion for VS Code.
 - [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) - adds `Go To Definition` and `Go To Symbol` in Workspace support for css/scss/less (classes and IDs) found in strings within the source code.
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - A basic spell checker that works well with code and documents.
